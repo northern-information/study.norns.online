@@ -1,8 +1,15 @@
 ---
 layout: default
 ---
-{%- if page.title -%}
-<h1>{{ page.title | escape }}</h1>
-{%- endif -%}
+<article>
 
-{{ content }}
+  <header>
+    <h1>{{ page.title | escape }}</h1>
+    <p><em>by {{ page.author }} · <time datetime="{{ page.date | date_to_xmlschema }}"> {%- assign date_format = site.minima.date_format | default: "%Y-%m-%-d" -%}{{ page.date | date: date_format }}</time> · <a href="{{ page.url | relative_url }}">permalink</a></em></p>
+  </header>
+
+  <div>
+    {{ page.content }}
+  </div>
+
+</article>

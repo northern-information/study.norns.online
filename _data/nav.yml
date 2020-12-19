@@ -4,10 +4,10 @@ pages:
   url: /
 
 - title: posts
-  url: /posts
+  url: /posts/
 
-- title: collections
-  url: /collections
+- title: resources
+  url: /resources/
 
 - title: about
-  url: /about
+  url: /about/

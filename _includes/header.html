@@ -1,11 +1,15 @@
-<header class="container-fluid my-5">
-  <div class="row my-5">
-    <div class="col-lg-2 col-md-2 col-sm-12">
-      <a href="{{ site.baseurl }}"><img src="{{ site.baseurl }}/assets/images/northern-information.svg"></a>
-    </div>
-    <div class="col-lg-10 col-md-10 col-sm-12">
-      <a href="{{ site.baseurl }}"><h1 id="cc" class="align-middle">{{ site.title }}</h1></a>
-      <p>{{ site.description }}</p>
+<header class="container-fluid mb-5">
+  <div class="row">
+    <div class="col-lg-8 offset-lg-2 col-md-8 offset-md-2 col-sm-12">
+      <a href="{{ site.baseurl }}"><h1>{{ site.title }}</h1></a>
+      <nav>
+        <ul>
+        {% for item in site.data.nav.pages %}
+          <li class="{% if item.url == page.url %}active{% endif %}"><a href="{{ site.baseurl }}{{ item.url }}">{{ item.title }}</a></li>
+        {% endfor %}
+          <li class="float-right"><em>{{ site.description }}</em></li>
+        </ul>
+      </nav>
     </div>
   </div>
 </header>

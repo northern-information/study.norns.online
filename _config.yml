@@ -1,5 +1,5 @@
-title: perfect bootstrap jekyll
-description: the perfect bootstrap jekyll starting theme. xoxo northern information.
+title: norns study group
+description: an open community of norns users
 baseurl: /
 url: https://study.norns.online
 permalink: pretty
@@ -11,5 +11,3 @@ plugins:
   - jekyll-feed
 include: ['_pages']
 collections_dir: collections
-collections:
-  - examples

@@ -1,4 +1,29 @@
-nav.container-fluid {
-  margin-top: 10px; }
+body {
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen-Sans, Ubuntu, Cantarell, "Helvetica Neue", sans-serif; }
+
+code, pre {
+  font-family: SFMono-Regular, Menlo, Monaco, Consolas, "Liberation Mono", "Courier New", monospace; }
+
+code {
+  color: #212529; }
+
+pre {
+  color: #ffffff;
+  background: #212529;
+  padding: 10px;
+  border-radius: 4px; }
+
+nav ul {
+  list-style: none;
+  padding: 0; }
+  nav ul li {
+    display: inline;
+    margin-right: 20px; }
+    nav ul li.active {
+      text-decoration: underline; }
+
+ul {
+  padding: 0;
+  list-style: inside; }
 
 /*# sourceMappingURL=style.css.map */

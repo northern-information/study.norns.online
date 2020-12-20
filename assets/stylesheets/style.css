@@ -26,4 +26,10 @@ ul {
   padding: 0;
   list-style: inside; }
 
+a.gh {
+  font-size: 48px;
+  color: #212529; }
+  a.gh:hover {
+    color: #007bff; }
+
 /*# sourceMappingURL=style.css.map */

@@ -1,7 +1,8 @@
+---
 layout: page
 title: resources
- permalink: /resources/
- ---
+permalink: /resources/
+---
 
 # norns 
 - [lines](https://llllllll.co) (main monome forum)

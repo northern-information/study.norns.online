@@ -16,8 +16,7 @@ permalink: /resources/
  - [lua documentation](http://www.lua.org/manual/5.4/) (codex)
 #  supercollider
 
-- [Eli Fieldsteel's fantastic Youtube series](https://www.youtube.com/watch?v=yRzsOOiJ_p4&list=PLPYzvS8A_rTaNDweXe6PX4CXSGq4iEWYC)
-- [Nick Collins' SuperCollider tutorial](https://composerprogrammer.com/teaching/supercollider/sctutorial/tutorial.html)
+- [youtube playlist for an overview](https://youtu.be/yRzsOOiJ_p4)
 
 ## language fundamentals
 - [written tutorial](https://composerprogrammer.com/teaching/supercollider/sctutorial/tutorial.html#chapter1)
@@ -28,11 +27,21 @@ permalink: /resources/
 - [supercollider server explained](https://doc.sccode.org/Guides/ClientVsServer.html) 
 - [j concepts in supercollider](https://doc.sccode.org/Guides/J-concepts-in-SC.html)
 - [how to use an interpreter with supercollider ](https://doc.sccode.org/Guides/How-to-Use-the-Interpreter.html)
-## managing audio
+### managing audio
 - [node](https://doc.sccode.org/Classes/Node.html)
 - [bus](https://doc.sccode.org/Classes/Bus.html)
 
 ---
-## useful tips for supercollider
+### useful tips for supercollider
 - select any class or method name and press ctl+D for a help page, usually containing  example code and links to related classes and overview pages
 - select any class name and press ctl+I to inspect the source code for the class. (+repeat.) often this just ends up being a light FFI wrapper , however many times it reveals how many sclang classes are actually implemented in sclang, and drilling down in this process reveals many powerful methods that  might otherwise be overlooked.
+
+---
+
+#  softcut
+
+- [softcut studies](https://monome.org/docs/norns/softcut/)
+- [lines thread on softcut](https://llllllll.co/t/norns-tutorial/23241)
+- [softcut api](https://monome.org/docs/norns/api/modules/softcut.html)
+- [github for softcut tutorials](https://github.com/monome/softcut-studies)
+- [clocks and softcut (thanks tehn)](https://vimeo.com/416730766)

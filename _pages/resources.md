@@ -1,16 +1,15 @@
 
+
 # norns 
 - [lines](https://llllllll.co) (main monome forum)
 - [@neauoire's norns tutorial](https://llllllll.co/t/norns-tutorial/23241)
 - [norns walkthrough: WIFI + maiden](https://vimeo.com/436460489)
----
 #  lua
  - [lua cheatsheet](https://devhints.io/lua) (great for learning lua)
  - [official monome norns studies](https://monome.org/docs/norns/study-1/) (your guide to guiding)
  - [official monome norns docs](https://monome.org/docs/norns/) 
  - [official monome norns github](https://github.com/monome/norns)
  - [lua documentation](http://www.lua.org/manual/5.4/) (codex)
----
 #  supercollider
 
 - [youtube playlist for an overview](https://youtu.be/yRzsOOiJ_p4)
@@ -32,6 +31,3 @@
 ### useful tips for supercollider
 - select any class or method name and press ctl+D for a help page, usually containing  example code and links to related classes and overview pages
 - select any class name and press ctl+I to inspect the source code for the class. (+repeat.) often this just ends up being a light FFI wrapper , however many times it reveals how many sclang classes are actually implemented in sclang, and drilling down in this process reveals many powerful methods that  might otherwise be overlooked.
-
-
-

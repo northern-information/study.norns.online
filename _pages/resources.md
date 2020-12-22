@@ -16,7 +16,8 @@ permalink: /resources/
  - [lua documentation](http://www.lua.org/manual/5.4/) (codex)
 #  supercollider
 
-- [youtube playlist for an overview](https://youtu.be/yRzsOOiJ_p4)
+- [Eli Fieldsteel's fantastic Youtube series](https://www.youtube.com/watch?v=yRzsOOiJ_p4&list=PLPYzvS8A_rTaNDweXe6PX4CXSGq4iEWYC)
+- [Nick Collins' SuperCollider tutorial](https://composerprogrammer.com/teaching/supercollider/sctutorial/tutorial.html)
 
 ## language fundamentals
 - [written tutorial](https://composerprogrammer.com/teaching/supercollider/sctutorial/tutorial.html#chapter1)

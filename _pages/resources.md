@@ -3,14 +3,11 @@ layout: page
 title: resources
 permalink: /resources/
 ---
-
-
 # norns
 - [lines](https://llllllll.co) (main monome forum)
 - [@neauoire's norns tutorial](https://llllllll.co/t/norns-tutorial/23241)
 - [norns walkthrough: WIFI + maiden](https://vimeo.com/436460489)
 - [awesome-norns](https://github.com/p3r7/awesome-monome-norns/blob/main/README.md)
-
 
 #  lua
  - [lua cheatsheet](https://devhints.io/lua) (great for learning lua)
@@ -19,7 +16,6 @@ permalink: /resources/
  - [official monome norns github](https://github.com/monome/norns)
  - [lua documentation](http://www.lua.org/manual/5.4/) (codex)
  - [Development: General](https://github.com/p3r7/awesome-monome-norns/blob/main/README.md#development-general) and [lua libs index](https://github.com/p3r7/awesome-monome-norns/blob/main/README.md#lua-libs) sections in awesome-norns
-
 
 #  supercollider
 
@@ -36,18 +32,13 @@ permalink: /resources/
 - [j concepts in supercollider](https://doc.sccode.org/Guides/J-concepts-in-SC.html)
 - [how to use an interpreter with supercollider ](https://doc.sccode.org/Guides/How-to-Use-the-Interpreter.html)
 
-### managing audio
+## managing audio
 - [node](https://doc.sccode.org/Classes/Node.html)
 - [bus](https://doc.sccode.org/Classes/Bus.html)
 
----
-
-### useful tips for supercollider
+## useful tips for supercollider
 - select any class or method name and press ctl+D for a help page, usually containing  example code and links to related classes and overview pages
 - select any class name and press ctl+I to inspect the source code for the class. (+repeat.) often this just ends up being a light FFI wrapper , however many times it reveals how many sclang classes are actually implemented in sclang, and drilling down in this process reveals many powerful methods that  might otherwise be overlooked.
-
----
-
 
 #  softcut
 

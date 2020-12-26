@@ -11,7 +11,7 @@ going forward we are planning several things:
 - this website: a place to share what we’re working on
 - more structured mentor/mentee relationships
 - monthly projects
-- a #stupid-questions channel where all messages are deleted after 72 hours
+- a #stupid-questions channel where all messages are deleted after 24 hours
 - a dedicated #sc channel for supercollider specific discussion
 - more focused "TED talk" deep dives
 

@@ -8,7 +8,7 @@ date: 2021-01-02
 
 the study group convened for the first time in 2021 today. we ended up spending ~4 hours mob-coding a supercollider patch together. use at your own risk!
 
-```
+```supercollider
 (55..58)
 
 { 1.rrand(5); } ! 5
